@@ -53,18 +53,14 @@ const Hero = () => {
           />
         </div>
         
-        {/* Content directly below image with no gap */}
-        <div className="px-4 md:px-6">
-          <div className="max-w-md mx-auto">
-            <div className="bg-gradient-to-r from-emerald-400 to-cyan-400 rounded-lg text-white p-6 md:p-8">
-              <h1 className="text-xl md:text-2xl font-bold leading-tight mb-6">
-                We Crush Your Competitors, Goals, And Sales Records - Without The B.S.
-              </h1>
-              <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-md transition-colors text-sm">
-                GET FREE CONSULTATION
-              </button>
-            </div>
-          </div>
+        {/* Content directly below image with no gap - Full width */}
+        <div className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-white p-6 md:p-8">
+          <h1 className="text-xl md:text-2xl font-bold leading-tight mb-6">
+            We Crush Your Competitors, Goals, And Sales Records - Without The B.S.
+          </h1>
+          <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-md transition-colors text-sm">
+            GET FREE CONSULTATION
+          </button>
         </div>
       </div>
     </section>
