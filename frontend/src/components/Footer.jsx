@@ -44,18 +44,30 @@ const Footer = () => {
           <div className="hidden lg:block"></div>
         </div>
 
-        {/* Bottom Section with centered line and links */}
-        <div className="mt-12 pt-8 space-y-4">
-          {/* Horizontal line - shorter and thicker */}
-          <div className="flex justify-center">
-            <div className="w-48 md:w-64 lg:w-80 border-t-2 border-white"></div>
+        {/* Bottom Section */}
+        <div className="mt-12 pt-8">
+          {/* Desktop version - centered line and links */}
+          <div className="hidden md:block space-y-4">
+            {/* Horizontal line - shorter and thicker */}
+            <div className="flex justify-center">
+              <div className="w-48 md:w-64 lg:w-80 border-t-2 border-white"></div>
+            </div>
+            
+            {/* Centered Privacy Policy and Terms */}
+            <div className="flex flex-col sm:flex-row justify-center items-center space-y-2 sm:space-y-0 sm:space-x-8 text-sm text-gray-300">
+              <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
+              <span className="hidden sm:inline text-gray-500">|</span>
+              <a href="#" className="hover:text-white transition-colors">Terms & Conditions</a>
+            </div>
           </div>
-          
-          {/* Centered Privacy Policy and Terms */}
-          <div className="flex flex-col sm:flex-row justify-center items-center space-y-2 sm:space-y-0 sm:space-x-8 text-sm text-gray-300">
-            <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-            <span className="hidden sm:inline text-gray-500">|</span>
-            <a href="#" className="hover:text-white transition-colors">Terms & Conditions</a>
+
+          {/* Mobile version - left aligned with separator */}
+          <div className="md:hidden">
+            <div className="flex items-center space-x-4 text-sm text-gray-300">
+              <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
+              <span className="text-gray-500">|</span>
+              <a href="#" className="hover:text-white transition-colors">Terms & Conditions</a>
+            </div>
           </div>
         </div>
       </div>
