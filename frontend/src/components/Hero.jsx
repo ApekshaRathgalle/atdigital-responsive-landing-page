@@ -42,8 +42,8 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Mobile and Tablet version - Image above, content below */}
-      <div className="lg:hidden">
+      {/* Mobile and Tablet version - Image with content box at bottom */}
+      <div className="lg:hidden relative">
         {/* Background Image */}
         <div className="w-full">
           <img 
@@ -53,17 +53,15 @@ const Hero = () => {
           />
         </div>
         
-        {/* Content below image */}
-        <div className="bg-white px-4 py-8 md:px-6 md:py-12">
-          <div className="max-w-md mx-auto">
-            <div className="bg-gradient-to-r from-emerald-400 to-cyan-400 rounded-lg text-white p-6 md:p-8">
-              <h1 className="text-xl md:text-2xl font-bold leading-tight mb-6">
-                We Crush Your Competitors, Goals, And Sales Records - Without The B.S.
-              </h1>
-              <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-md transition-colors text-sm">
-                GET FREE CONSULTATION
-              </button>
-            </div>
+        {/* Content box positioned at bottom of image - NO SPACING */}
+        <div className="absolute bottom-0 left-0 right-0 p-4 md:p-6">
+          <div className="bg-gradient-to-r from-emerald-400 to-cyan-400 rounded-lg text-white p-6 md:p-8 mx-auto max-w-sm md:max-w-md">
+            <h1 className="text-xl md:text-2xl font-bold leading-tight mb-6">
+              We Crush Your Competitors, Goals, And Sales Records - Without The B.S.
+            </h1>
+            <button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-6 py-3 rounded-md transition-colors text-sm">
+              GET FREE CONSULTATION
+            </button>
           </div>
         </div>
       </div>
