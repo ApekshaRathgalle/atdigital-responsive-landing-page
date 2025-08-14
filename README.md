@@ -29,7 +29,7 @@ The design was provided via Figma (desktop, tablet, and mobile versions), and th
 
 **🚀 Live Site:** [https://atdigital-responsive-landing-page.netlify.app](https://atdigital-responsive-landing-page.netlify.app)
 
-*Note: Replace with your actual Netlify URL once deployed*
+
 
 ---
 
