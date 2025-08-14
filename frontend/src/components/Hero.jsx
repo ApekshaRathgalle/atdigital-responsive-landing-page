@@ -15,8 +15,9 @@ const Hero = () => {
       {/* Content Container */}
       <div className="relative w-full h-screen">
         
+        {/* Desktop version - HIDE on mobile */}
         <div 
-          className="absolute bg-gradient-to-r from-emerald-400 to-cyan-400 rounded-lg text-white flex flex-col justify-center"
+          className="hidden lg:block absolute bg-gradient-to-r from-emerald-400 to-cyan-400 rounded-lg text-white flex flex-col justify-center"
           style={{
             width: '630px',
             height: '306px',
