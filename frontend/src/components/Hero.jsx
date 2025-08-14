@@ -42,19 +42,19 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Mobile and Tablet version - Image above, content below */}
+      {/* Mobile and Tablet version - Image above, content directly below with no gap */}
       <div className="lg:hidden">
         {/* Background Image */}
         <div className="w-full">
           <img 
             src={heroImage} 
             alt="Modern workspace with laptop"
-            className="w-full h-64 md:h-80 object-cover object-center"
+            className="w-full h-64 md:h-80 object-cover object-center block"
           />
         </div>
         
-        {/* Content below image */}
-        <div className="bg-white px-4 py-8 md:px-6 md:py-12">
+        {/* Content directly below image with no gap */}
+        <div className="px-4 md:px-6">
           <div className="max-w-md mx-auto">
             <div className="bg-gradient-to-r from-emerald-400 to-cyan-400 rounded-lg text-white p-6 md:p-8">
               <h1 className="text-xl md:text-2xl font-bold leading-tight mb-6">
