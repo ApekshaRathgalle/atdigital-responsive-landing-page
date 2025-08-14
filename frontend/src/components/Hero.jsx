@@ -3,7 +3,7 @@ import heroImage from '../assets/hero.jpg'
 const Hero = () => {
   return (
     <section className="relative">
-      {/* Desktop version - Full screen with overlay */}
+      {/* Desktop version  */}
       <div className="hidden lg:block relative min-h-screen overflow-hidden">
         {/* Background Image */}
         <div className="absolute inset-0">
@@ -42,7 +42,7 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Mobile and Tablet version - Full width content box */}
+      {/* Mobile and Tablet version  */}
       <div className="lg:hidden">
         {/* Background Image */}
         <div className="w-full">
@@ -53,7 +53,7 @@ const Hero = () => {
           />
         </div>
         
-        {/* Full width content box directly below image */}
+        {/*  content box  */}
         <div className="w-full bg-gradient-to-r from-emerald-400 to-cyan-400 text-white p-6 md:p-8">
           <h1 className="text-xl md:text-2xl font-bold leading-tight mb-6">
             We Crush Your Competitors, Goals, And Sales Records - Without The B.S.

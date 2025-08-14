@@ -61,12 +61,20 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Mobile version - left aligned, no separator line */}
-          <div className="md:hidden">
-            <div className="text-sm text-gray-300">
-              <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-              <span className="mx-3 text-gray-500">|</span>
-              <a href="#" className="hover:text-white transition-colors">Terms & Conditions</a>
+          {/* Mobile version - with horizontal line and centered links */}
+          <div className="md:hidden space-y-4">
+            {/* Horizontal line for mobile */}
+            <div className="flex justify-center">
+              <div className="w-full border-t border-white"></div>
+            </div>
+            
+            {/* Centered links */}
+            <div className="flex justify-center">
+              <div className="text-sm text-gray-300">
+                <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
+                <span className="mx-3 text-gray-500">|</span>
+                <a href="#" className="hover:text-white transition-colors">Terms & Conditions</a>
+              </div>
             </div>
           </div>
         </div>
