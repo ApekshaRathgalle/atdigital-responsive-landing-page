@@ -42,7 +42,7 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Mobile and Tablet version - Content positioned at bottom of image */}
+      {/* Mobile and Tablet version - Content overlapping bottom of image */}
       <div className="lg:hidden relative">
         {/* Background Image */}
         <div className="w-full relative">
@@ -52,9 +52,9 @@ const Hero = () => {
             className="w-full h-64 md:h-80 object-cover object-center"
           />
           
-          {/* Content box positioned at bottom with proper spacing */}
-          <div className="absolute bottom-4 left-4 right-4 md:bottom-6 md:left-6 md:right-6">
-            <div className="bg-gradient-to-r from-emerald-400 to-cyan-400 rounded-lg text-white p-6 md:p-8">
+          {/* Content box positioned at bottom of image */}
+          <div className="absolute bottom-0 left-0 right-0 p-4 md:p-6">
+            <div className="bg-gradient-to-r from-emerald-400 to-cyan-400 rounded-lg text-white p-6 md:p-8 mx-auto max-w-sm md:max-w-md">
               <h1 className="text-xl md:text-2xl font-bold leading-tight mb-6">
                 We Crush Your Competitors, Goals, And Sales Records - Without The B.S.
               </h1>
