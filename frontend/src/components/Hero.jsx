@@ -42,7 +42,7 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Mobile and Tablet version - Image above, content directly below with no gap */}
+      {/* Mobile and Tablet version - Full width content box */}
       <div className="lg:hidden">
         {/* Background Image */}
         <div className="w-full">
@@ -53,8 +53,8 @@ const Hero = () => {
           />
         </div>
         
-        {/* Content directly below image with no gap - Full width */}
-        <div className="bg-gradient-to-r from-emerald-400 to-cyan-400 text-white p-6 md:p-8">
+        {/* Full width content box directly below image */}
+        <div className="w-full bg-gradient-to-r from-emerald-400 to-cyan-400 text-white p-6 md:p-8">
           <h1 className="text-xl md:text-2xl font-bold leading-tight mb-6">
             We Crush Your Competitors, Goals, And Sales Records - Without The B.S.
           </h1>
