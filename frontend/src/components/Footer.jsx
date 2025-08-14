@@ -15,28 +15,28 @@ const Footer = () => {
               />
             </div>
             <div className="text-white leading-relaxed">
-              <p>Your goal is our target. Not anything in between. We use online marketing platforms and tools to achieve single objective - your business results.</p>
+              <p className="font-bold">Your goal is our target. Not anything in between. We use online marketing platforms and tools to achieve single objective - your business results.</p>
             </div>
           </div>
 
           {/* Our Technologies */}
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold text-white">Our Technologies</h3>
+            <h3 className="text-lg font-bold text-white">Our Technologies</h3>
             <ul className="space-y-3 text-gray-300">
-              <li><a href="#" className="hover:text-white transition-colors">ReactJS</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Gatsby</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">NextJS</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">NodeJS</a></li>
+              <li><a href="#" className="hover:text-white transition-colors font-bold">ReactJS</a></li>
+              <li><a href="#" className="hover:text-white transition-colors font-bold">Gatsby</a></li>
+              <li><a href="#" className="hover:text-white transition-colors font-bold">NextJS</a></li>
+              <li><a href="#" className="hover:text-white transition-colors font-bold">NodeJS</a></li>
             </ul>
           </div>
 
           {/* Our Services */}
           <div className="space-y-4">
-            <h3 className="text-lg font-semibold text-white">Our Services</h3>
+            <h3 className="text-lg font-bold text-white">Our Services</h3>
             <ul className="space-y-3 text-gray-300">
-              <li><a href="#" className="hover:text-white transition-colors">Social Media Marketing</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Web & Mobile App Development</a></li>
-              <li><a href="#" className="hover:text-white transition-colors">Data & Analytics</a></li>
+              <li><a href="#" className="hover:text-white transition-colors font-bold">Social Media Marketing</a></li>
+              <li><a href="#" className="hover:text-white transition-colors font-bold">Web & Mobile App Development</a></li>
+              <li><a href="#" className="hover:text-white transition-colors font-bold">Data & Analytics</a></li>
             </ul>
           </div>
 
@@ -55,9 +55,9 @@ const Footer = () => {
             
             {/* Centered Privacy Policy and Terms */}
             <div className="flex flex-col sm:flex-row justify-center items-center space-y-2 sm:space-y-0 sm:space-x-8 text-sm text-gray-300">
-              <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
+              <a href="#" className="hover:text-white transition-colors font-bold">Privacy Policy</a>
               <span className="hidden sm:inline text-gray-500">|</span>
-              <a href="#" className="hover:text-white transition-colors">Terms & Conditions</a>
+              <a href="#" className="hover:text-white transition-colors font-bold">Terms & Conditions</a>
             </div>
           </div>
 
@@ -69,9 +69,9 @@ const Footer = () => {
             {/* Centered links */}
             <div className="flex justify-center">
               <div className="text-sm text-gray-300">
-                <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
+                <a href="#" className="hover:text-white transition-colors font-bold">Privacy Policy</a>
                 <span className="mx-3 text-gray-500">|</span>
-                <a href="#" className="hover:text-white transition-colors">Terms & Conditions</a>
+                <a href="#" className="hover:text-white transition-colors font-bold">Terms & Conditions</a>
               </div>
             </div>
           </div>
