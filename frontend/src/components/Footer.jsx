@@ -61,11 +61,11 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Mobile version - left aligned with separator */}
+          {/* Mobile version - left aligned, no separator line */}
           <div className="md:hidden">
-            <div className="flex items-center space-x-4 text-sm text-gray-300">
+            <div className="text-sm text-gray-300">
               <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-              <span className="text-gray-500">|</span>
+              <span className="mx-3 text-gray-500">|</span>
               <a href="#" className="hover:text-white transition-colors">Terms & Conditions</a>
             </div>
           </div>
