@@ -64,9 +64,7 @@ const Footer = () => {
           {/* Mobile version - with horizontal line and centered links */}
           <div className="md:hidden space-y-4">
             {/* Horizontal line for mobile */}
-            <div className="flex justify-center">
-              <div className="w-full border-t border-white"></div>
-            </div>
+            <div className="w-full border-t border-white"></div>
             
             {/* Centered links */}
             <div className="flex justify-center">
